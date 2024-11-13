@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 # This script prints "Best School" 9 times using a while Loop and IF statement to print "HI" on a new line
-# Set a counter to 1
+# Set a counter(i) to 1
+i=1
 
-counter=1
-
-while [[ $counter <= 10 ]]; do
-  if [[ $counter == 9 ]]; then {
+while [ "$i" -lt 11 ]; do
     echo "Best School"
-    echo "Hi"
-  } else {
-    echo "Best School"
-  }
-  ((counter++))
+    if [[ $i -eq 9 ]]; then
+        echo "Hi"
+    fi    
+    ((i++))
 done
