@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script prints numbers from 1 to 20 using Until Loop 
-# Set a i to 1
-i=1
+# Set  i to 1
 
+i=1
 # Loop until the i reaches 11
 until false; do
     echo "Best School"
