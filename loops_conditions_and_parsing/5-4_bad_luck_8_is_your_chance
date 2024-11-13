@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script prints 
+#1.displays bad luck for the 4th loop iteration
+#2.displays good luck for the 8th loop iteration
+#3.displays Best School for the other iterations
+#using a while Loop and if, elif and else statement.
+
+# Set a counter to 1
+counter=1
+
+while [[ $counter <= 10 ]]; do
+  if [[ $counter == 4 ]]; then {
+    echo "bad luck"
+  } elif [[ $counter == 8 ]]; then {
+    echo "good luck"
+  } else {
+    echo "Best School"
+  }
+  ((counter++))
+done

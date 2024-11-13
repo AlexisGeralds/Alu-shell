@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#!/usr/bin/env bash
+#This script prints  numbers from 1 to 20 using While Loop and head command.
+# Set Hour=0
+
+hour=0
+while [[ $hour <= 12 ]]; do
+  minute=1
+  while [[ $minute <= 59 ]]; do
+    echo "$hour:$minute"
+    ((minute++))
+  done
+  ((hour++))
+done
