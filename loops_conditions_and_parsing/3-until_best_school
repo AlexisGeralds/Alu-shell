@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 # This script prints numbers from 1 to 20 using Until Loop 
-# Set a counter to 1
-counter=1
+# Set a i to 1
+i=1
 
-# Loop until the counter reaches 11
-until [[ $counter => 10 ]]; do
+# Loop until the i reaches 11
+until false; do
     echo "Best School"
-    # Increase the counter by 1
-    ((counter++))
+    ((i++))
+    if [[ $i -lt 10 ]]; then 
+        continue
+    else
+        break
+    fi
 done
