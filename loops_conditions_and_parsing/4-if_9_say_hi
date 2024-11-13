@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script prints "Best School" 9 times using a while Loop and IF statement to print "HI" on a new line
-
 # Set a counter to 1
+
 counter=1
 
 while [[ $counter <= 10 ]]; do
